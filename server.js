@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/', function (req, res) {
+app.get('/jarvis', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'jarvis.html'))
 })
 
