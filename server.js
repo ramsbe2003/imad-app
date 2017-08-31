@@ -14,8 +14,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/jarvis', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'jarvis.html'))
-})
+    res.sendFile(path.join(__dirname, 'ui', 'jarvis.html'));
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
